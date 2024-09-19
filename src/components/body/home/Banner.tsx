@@ -2,7 +2,7 @@ import React from 'react'
 
 const Banner = () => {
   return (
-    <div className="w-screen h-screen px-4 md:px-10 lg:px-20 flex justify-center flex-col  text-white" style={{background: "url('/slide-02.jpg')"}}>
+    <div className="w-screen h-screen px-4 md:px-10 lg:px-20 flex justify-center flex-col  text-white" style={{background: "url('/slide-02.jpg')", backgroundSize: "cover",backgroundRepeat: "no-repeat"}}>
         <div className="flex flex-col gap-8 w-1/2">
             <h1 className="text-6xl font-bold leading-snug">Get <span className="text-secondary">ready</span> for your Business & upgrade <span className="text-secondary">all aspects</span></h1>
             <div className="h-1 bg-white w-20"></div>
